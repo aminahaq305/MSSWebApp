@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import './App.css';
-//adding comment for push
+
 class App extends React.Component {
 
   state = {
@@ -40,7 +40,7 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <p>You have reached the Web App for the Mobile Sanitization Station</p>
-          <p>Team Austrlian 6 is the best!</p>
+          <p>Team Australian 6 is the best!</p>
           <p>Here is some sample data that isn't very well formatted: </p>
           <div className="dispensedData">
             {this.displayDispensedData(this.state.dispensed)}

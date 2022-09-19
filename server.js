@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 8080; //might not need this on firebase this is for heroku so look up
+const PORT = process.env.PORT || 8080;
 
 const routes = require("./routes/api");
 mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://ceg4981:australian6@cluster0.wmkqhpm.mongodb.net/MobileSanitizationStation?retryWrites=true&w=majority'
